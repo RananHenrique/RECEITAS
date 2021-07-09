@@ -1,0 +1,157 @@
+body {
+    background-color: white;
+}
+
+header{
+    background:url("./img/bg.jpg");
+    padding: 20px;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 15px ;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 12px;
+    font-size: 20px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: red;
+}
+
+.logo{
+    max-width: 110px;
+    margin-left: 10px;
+}
+.titulo {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+
+.titulo1 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.bio {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.imgreceitas1 {
+    color: black;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto; 
+    max-width: 250px;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.imgreceitas2{
+    color: black;
+    display: inline;
+    margin-left: auto;
+    margin-right: auto; 
+    max-width: 250px;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+img {
+    max-width: 100px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+.textpr1{
+    font-size: 30px;
+    margin-top: 10px;
+}
+.textpr2{
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.imgreceitas1:hover {
+    color: red;
+}
+
+.imgreceitas2:hover {
+    color: red;
+}
+
+.linha1 {
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 5px;
+    padding: 30px 20px;
+   margin-left: 110px;
+}
+
+.linha2{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 5px;
+    padding: 30px 20px;
+   margin-left: 250px;
+   font-weight: 700;
+}
+
+.linha3{
+    display: inline-block;
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 5px;
+    padding: 30px 20px;
+   margin-left: 150px;
+}
+
+.linha1:hover{
+    color: red;
+}
+
+footer {
+    text-align: center;
+    background: url("./img/bg.jpg");
+    padding: 10px 0 ;
+}
+
+.imgfooder{
+    max-width: 150px;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
+    margin: 5px 0 0 ;
+    font-weight: bold;
+}
+
